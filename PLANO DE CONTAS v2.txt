@@ -1,0 +1,444 @@
+Code	Name	CashAccount	BudgetAccount	ActiveAccount	FatherAccountKey	ExternalCode	AccountType	ForeignName	Details	ProjectCode	LockManualTransaction														
+Código da conta	Descrição	Se é conta caixa ou não	Relevante para budget	Conta analítica (aquela que recebe lançamentos)	Código da conta superior	Codigo Externo	Tipo de Conta 	Descrição estrangeira	Detalhes (observações)	Projeto (fixo)	Bloquear lançamento manual														
+1.01	ATIVO CIRCULANTE	tNO		tNO	100000000000000		at_Other																		
+1.01.01	DISPONIBILIDADES	tNO		tNO	1.01		at_Other																		
+1.01.01.01	CAIXA GERAL	tNO		tNO	1.01.01		at_Other																		
+1.01.01.01.01	Caixinha	tYES		tYES	1.01.01.01		at_Other																		
+1.01.01.02	BANCOS CONTA MOVIMENTO	tNO		tNO	1.01.01		at_Other																		
+1.01.01.02.01	Bancos do Brasil - 91508-4	tYES		tYES	1.01.01.02		at_Other																		
+1.01.01.02.02	Bancos Itau - 99668-6	tYES		tYES	1.01.01.02		at_Other																		
+1.01.02	CONTAS A RECEBER	tNO		tNO	1.01		at_Other																		
+1.01.02.01	DUPLICATAS A RECEBER	tNO		tNO	1.01.02		at_Other																		
+1.01.02.01.01	Clientes PF	tNO		tYES	1.01.02.01		at_Other																		
+1.01.02.01.02	Clientes Operadoras	tNO		tYES	1.01.02.01		at_Other																		
+1.01.02.02	OPERAÇÕES COM PESSOAS LIGADAS	tNO		tNO	1.01.02		at_Other																		
+1.01.02.02.01	Conta corrente sócios - CP	tNO		tYES	1.01.02.02		at_Other																		
+1.01.03	ESTOQUES	tNO		tNO	1.01		at_Other																		
+1.01.03.01	ESTOQUE CENTRAL	tNO		tNO	1.01.03		at_Other																		
+1.01.03.01.01	Materiais	tNO		tYES	1.01.03.01		at_Other																		
+1.01.03.01.02	Medicamentos	tNO		tYES	1.01.03.01		at_Other																		
+1.01.03.02	MALAS	tNO		tNO	1.01.03		at_Other																		
+1.01.03.03.01	Malas de Emergência	tNO		tYES	1.01.03.02		at_Other																		
+1.01.03.02.02	Malas de Conforto	tNO		tYES	1.01.03.02		at_Other																		
+1.01.03.03	ESTOQUE TRANSACIONADOS COM TERCEIROS	tNO		tNO	1.01.03		at_Other																		
+1.01.03.03.01	Produtos emprestados	tNO		tYES	1.01.03.03		at_Other																		
+1.01.03.03.01	Produtos a devolver	tNO		tYES	1.01.03.03		at_Other																		
+1.02	ATIVO NÃO CIRCULANTE	tNO		tNO	100000000000000		at_Other																		
+1.02.01	IMOBILIZADO VALOR DE CUSTO	tNO		tNO	1.02		at_Other																		
+1.02.01.01	Bens	tNO		tYES	1.02.01		at_Other																		
+1.02.01.02	Reformas	tNO		tYES	1.02.01		at_Other																		
+2.01	PASSIVO CIRCULANTE	tNO		tNO	200000000000000		at_Other																		
+2.01.01	OBRIGAÇÕES DE CURTO PRAZO	tNO		tNO	2.01		at_Other																		
+2.01.01.01	FORNECEDORES	tNO		tNO	2.01.01		at_Other																		
+2.01.01.01.01	Fornecedores de Materiais e Medicamentos	tNO		tYES	2.01.01.01		at_Other																		
+2.01.01.01.02	Prestadores de Serviço	tNO		tYES	2.01.01.01		at_Other																		
+2.01.01.02	OBRIGAÇÕES COM PESSOAL	tNO		tNO	2.01.01.02		at_Other																		
+2.01.01.02.01	Salários a Pagar	tNO		tYES	2.01.01.02		at_Other																		
+2.01.01.02.02	13º Salário a Pagar	tNO		tYES	2.01.01.02		at_Other																		
+2.01.01.02.03	Honorários da Administração a Pagar	tNO		tYES	2.01.01.02		at_Other																		
+2.01.01.02.04	Rescisões a Pagar	tNO		tYES	2.01.01.02		at_Other																		
+2.01.01.02.05	Autônomos a Pagar	tNO		tYES	2.01.01.02		at_Other																		
+2.01.01.02.06	Pro-Labore a Pagar	tNO		tYES	2.01.01.02		at_Other																		
+2.01.01.03	ENCARGOS SOCIAIS A PAGAR	tNO		tNO	2.01.01		at_Other																		
+2.01.01.03.01	INSS e IR a Recolher	tNO		tYES	2.01.01.03		at_Other																		
+2.01.01.03.02	FGTS a Recolher	tNO		tYES	2.01.01.03		at_Other																		
+2.01.01.04	PROVISÕES DE FÉRIAS	tNO		tNO	2.01.01		at_Other																		
+2.01.01.04.01	Férias	tNO		tYES	2.01.01.04		at_Other																		
+2.01.01.04.02	INSS e IR s/ Férias	tNO		tYES	2.01.01.04		at_Other																		
+2.01.01.04.03	FGTS s/ Férias	tNO		tYES	2.01.01.04		at_Other																		
+2.01.01.05	OBRIGAÇÕES TRIBUTÁRIAS	tNO		tNO	2.01.01		at_Other																		
+2.01.01.05.01	PIS a Recolher	tNO		tYES	2.01.01.05		at_Other																		
+2.01.01.05.02	COFINS a Recolher	tNO		tYES	2.01.01.05		at_Other																		
+2.01.01.05.03	IRRF s/ Salários a Recolher	tNO		tYES	2.01.01.05		at_Other																		
+2.01.01.05.04	IRRF s/ Prestação de Serviços a Recolher	tNO		tYES	2.01.01.05		at_Other																		
+2.01.01.05.05	IRRF s/ Aluguel a Recolher	tNO		tYES	2.01.01.05		at_Other																		
+2.01.01.05.06	CSLL a Recolher	tNO		tYES	2.01.01.05		at_Other																		
+2.01.01.05.07	IRPJ a Recolher	tNO		tYES	2.01.01.05		at_Other																		
+2.01.01.05.08	INSS Retido a Recolher	tNO		tYES	2.01.01.05		at_Other																		
+2.01.01.05.09	PIS / COFINS / CSLL Retido a Recolher	tNO		tYES	2.01.01.05		at_Other																		
+2.01.01.05.10	ISS a Recolher	tNO		tYES	2.01.01.05		at_Other																		
+2.01.01.05.11	ISS Retido a Recolher	tNO		tYES	2.01.01.05		at_Other																		
+2.01.01.05.12	Contribuição Sindical a Recolher	tNO		tYES	2.01.01.05		at_Other																		
+2.01.01.05.13	Contribuição Assistencial a Recolher	tNO		tYES	2.01.01.05		at_Other																		
+2.01.01.06	ADIANTAMENTO DE CLIENTES	tNO		tNO	2.01.01		at_Other																		
+2.01.01.06.01	Clientes PF	tNO		tYES	2.01.01.06		at_Other																		
+2.01.01.07	OUTRAS OBRIGAÇÕES	tNO		tNO	2.01.01		at_Other																		
+2.01.01.07.01	Contas a Pagar diversas	tNO		tYES	2.01.01.07		at_Other																		
+2.01.01.08	EMPRESTIMOS E FINANCIAMENTOS	tNO		tNO	2.01.01		at_Other																		
+2.01.01.08.01	Banco Conta Garantida (Saldo Credor)	tYES		tYES	2.01.01.08		at_Other																		
+2.01.01.08.02	Empréstimos para Capital de giro	tYES		tYES	2.01.01.08		at_Other																		
+2.01.01.08.03	Empréstimos em Moeda Nacional	tYES		tYES	2.01.01.08		at_Other																		
+2.02	PASSIVO NÂO CIRCULANTE	tNO		tNO	200000000000000		at_Other																		
+2.02.01	EXIGÍVEL A LONGO PRAZO	tNO		tNO	2.02		at_Other																		
+2.02.01.01	OBRIGAÇÕES TRIBUTÁRIAS	tNO		tNO	2.02.01		at_Other																		
+2.02.01.01.01	Contribuição Previdenciária - INSS - Parcelamento	tNO		tYES	2.02.01.01		at_Other																		
+2.02.01.02	EMPRÉSTIMOS DE SÓCIOS	tNO		tNO	2.02.01		at_Other																		
+2.02.01.02.01	Ana Cláudia Quintana Arantes	tNO		tYES	2.02.01.02		at_Other																		
+2.03	PATRIMÔNIO LÍQUIDO	tNO		tNO	200000000000000		at_Other																		
+2.03.01	CAPITAL SOCIAL	tNO		tNO	2.03		at_Other																		
+2.03.01.01	CAPITAL SOCIAL REALIZADO	tNO		tNO	2.03.01		at_Other																		
+2.03.01.01.01	Capital Social Subscrito	tNO		tYES	2.03.01.01		at_Other																		
+2.03.01.01.02	Aporte para futuro aumento de capital - AFAC	tNO		tYES	2.03.01.01		at_Other																		
+2.03.02	RESERVAS	tNO		tNO	2.03		at_Other																		
+2.03.02.01	RESERVAS DE LUCRO	tNO		tNO	2.03.02		at_Other																		
+2.03.02.02.01	Lucros Acumulados	tNO		tYES	2.03.02.01		at_Other																		
+2.03.03	PREJUÍZOS ACUMULADOS	tNO		tNO	2.03		at_Other																		
+2.03.03.01	PREJUÍZOS ACUMULADOS	tNO		tNO	2.03.03		at_Other																		
+2.03.03.01.01	Prejuízos Acumulados	tNO		tYES	2.03.03.01		at_Other																		
+2.03.04	RESULTADO DO EXERCICIO	tNO		tNO	2.03		at_Other																		
+2.03.04.01	RESULTADO DO EXERCICIO	tNO		tNO	2.03.04		at_Other																		
+2.03.04.01.01	Lucro do Exercicio	tNO		tYES	2.03.04.01		at_Other																		
+2.03.04.01.02	Prejuizo do Exercicio	tNO		tYES	2.03.04.01		at_Other																		
+3.01	RECEITA OPERACIONAL LÍQUIDA	tNO		tNO	300000000000000		at_Other																		
+3.01.01	RECEITA OPERACIONAL BRUTA	tNO		tNO	3.01		at_Other																		
+3.01.01.01	PRODUÇÃO	tNO		tNO	3.01.01		at_Other																		
+3.01.01.01.01	Sulamerica	tNO		tYES	3.01.01.01		at_Revenues																		
+3.01.01.02	RECEITA	tNO		tNO	3.01.01		at_Other																		
+3.01.01.02.01	Particular	tNO		tYES	3.01.01.02		at_Revenues																		
+3.01.01.02.02	Sulamerica	tNO		tYES	3.01.01.02		at_Revenues																		
+3.01.01.02.03	Omint	tNO		tYES	3.01.01.02		at_Revenues																		
+3.01.01.02.04	Plataforma Digital	tNO		tYES	3.01.01.02		at_Revenues																		
+3.01.02	(-) DEDUÇÕES DA RECEITA BRUTA	tNO		tNO	3.01		at_Other																		
+3.01.02.01	(-) DEDUÇÕES DE VENDAS E ABATIMENTOS	tNO		tNO	3.01.02		at_Other																		
+3.01.02.01.01	Serviços não aprovados	tNO		tYES	3.01.02.01		at_Expenses																		
+3.01.02.01.02	Abatimentos Concedidos	tNO		tYES	3.01.02.01		at_Expenses																		
+3.01.02.02	(-) TRIBUTOS SOBRE VENDAS/ SERVIÇOS	tNO		tNO	3.01.02		at_Other																		
+3.01.02.02.01	PIS sobre Vendas e Serviços	tNO		tYES	3.01.02.02		at_Expenses																		
+3.01.02.02.02	COFINS sobre Vendas e Serviços	tNO		tYES	3.01.02.02		at_Expenses																		
+3.01.02.02.03	ISS sobre Serviços	tNO		tYES	3.01.02.02		at_Expenses																		
+3.01.02.02.04	Carga tributária da Produção	tNO		tYES	3.01.02.02		at_Expenses																		
+4.01	CUSTOS	tNO		tNO	400000000000000		at_Other																		
+4.01.01	CUSTOS DOS SERVIÇOS	tNO		tNO	4.01		at_Other																		
+4.01.01.01	CUSTOS COM PROFISSIONAIS	tNO		tNO	4.01.01		at_Other																		
+4.01.01.01.01	Enfermeiros	tNO		tYES	4.01.01.01		at_Expenses																		
+4.01.01.01.02	Equipe Multidisciplinar	tNO		tYES	4.01.01.01		at_Expenses																		
+4.01.01.01.03	Médicos	tNO		tYES	4.01.01.01		at_Expenses																		
+4.01.01.01.04	Técnicos de enfermagem	tNO		tYES	4.01.01.01		at_Expenses																		
+4.01.01.01.05	Transporte Assistencial	tNO		tYES	4.01.01.01		at_Expenses																		
+4.01.01.01.06	Tributos sobre folha	tNO		tYES	4.01.01.01		at_Expenses																		
+4.01.01.02	CUSTOS GERAIS	tNO		tNO	4.01.01		at_Other																		
+4.01.01.02.01	Dietas	tNO		tYES	4.01.01.02		at_Expenses																		
+4.01.01.02.02	Materiais de Enfermagem e Medicamentos	tNO		tYES	4.01.01.02		at_Expenses																		
+4.01.01.02.03	Equipamentos (Taxa de Utilização Diária)	tNO		tYES	4.01.01.02		at_Expenses																		
+4.01.01.02.04	Exames	tNO		tYES	4.01.01.02		at_Expenses																		
+4.01.01.02.05	Procedimentos especiais	tNO		tYES	4.01.01.02		at_Expenses																		
+4.01.01.02.06	Transporte Medicamentos	tNO		tYES	4.01.01.02		at_Expenses																		
+4.01.01.02.07	Perdas de estoques	tNO		tYES	4.01.01.02		at_Expenses																		
+5.01	DESPESAS	tNO		tNO	500000000000000		at_Other																		
+5.01.01	DESPESAS DE APOIO	tNO		tNO	5.01		at_Other																		
+5.01.01.01	DESPESAS COM PROFISSIONAIS	tNO		tNO	5.01.01		at_Other																		
+5.01.01.01.01	Remuneração, encargos e benefícios CLT	tNO		tYES	5.01.01.01		at_Expenses																		
+5.01.01.01.02	Serviços Administrativos PJ	tNO		tYES	5.01.01.01		at_Expenses																		
+5.01.01.01.03	Férias	tNO		tYES	5.01.01.01		at_Expenses																		
+5.01.01.01.04	Serviços de Terceiros	tNO		tYES	5.01.01.01		at_Expenses																		
+5.01.01.02	DESPESAS GERAIS	tNO		tNO	5.01.01		at_Other																		
+5.01.01.02.01	Material de escritório	tNO		tYES	5.01.01.02		at_Expenses																		
+5.01.01.02.02	Despesas Estruturais e Instalações	tNO		tYES	5.01.01.02		at_Expenses																		
+5.01.01.02.03	Outros tributos	tNO		tYES	5.01.01.02		at_Expenses																		
+5.01.01.02.04	Materiais de Consumo	tNO		tYES	5.01.01.02		at_Expenses																		
+5.01.01.02.05	Utilidades e serviços	tNO		tYES	5.01.01.02		at_Expenses																		
+5.01.01.02.06	Tarifas	tNO		tYES	5.01.01.02		at_Expenses																		
+5.01.01.02.07	Outras despesas	tNO		tYES	5.01.01.02		at_Expenses																		
+5.01.01.02.08	Eventos	tNO		tYES	5.01.01.02		at_Expenses																		
+6.01	SALDOS INICIAIS	tNO	tYES	tNO	600000000000000		at_Other				tNO														
+6.01.01	SALDOS INICIAIS	tNO	tYES	tNO	6.01		at_Other																		
+6.01.01.01	SALDOS INICIAIS PARA IMPLEMENTAÇÃO	tNO	tYES	tNO	6.01.01		at_Other																		
+6.01.01.01.01	Saldo Inicial de Estoque	tNO	tYES	tYES	6.01.01.01		at_Other																		
+6.01.01.01.02	Saldo Inicial de Contas a Pagar	tNO	tYES	tYES	6.01.01.01		at_Other																		
+6.01.01.01.03	Saldo Inicial de Contas a Receber	tNO	tYES	tYES	6.01.01.01		at_Other																		
+6.01.01.01.04	Saldo Inicial de Balanço	tNO	tYES	tYES	6.01.01.01		at_Other																		
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
