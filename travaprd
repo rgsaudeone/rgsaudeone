@@ -1,0 +1,4 @@
+if :object_type in ('30','97','23','17','15','16','203','13','14','13','540000006','22','20','21','204','18','19','18','59','60','67','202','181', '106') and (:transaction_type='A' or :transaction_type='U' or :transaction_type='C' or :transaction_type='L') then
+      error := -111;
+      error_message := 'Não é permitido lançar antes do Go-Live na base produtiva';
+end if;
