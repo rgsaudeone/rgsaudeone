@@ -1,0 +1,42 @@
+Code	Name	Type
+GroupCode	GroupName	GroupType
+113	T.I.	S
+114	Beneficios 	S
+115	Dedetizacao	S
+116	Transportes	S
+117	Seguranca do trabalho	S
+118	Contabilidade 	S
+119	Advogados 	S
+120	Telefonia 	S
+121	Marketing 	S
+122	Enfermagem terceirizada 	S
+123	Recrutamento	S
+124	Cursos 	S
+125	Sistema 	S
+126	Treinamento	S
+127	Sistema de ponto eletronico 	S
+128	Manutenção 	S
+129	Prestador 	S
+130	Fornecedor	S
+131	Remoções 	S
+132	Uniformes 	S
+133	Eventos 	S
+134	Saneamento	S
+135	Equipe Multidisciplinar 	S
+136	Telefonia e Internet 	S
+137	Eletricidade 	S
+138	Laboratório 	S
+139	Fundo de Investimentos 	S
+140	Consultoria 	S
+141	Oxigenoterapia	S
+142	Mobiliarios 	S
+143	Oxigenoterapia 	S
+144	Grafica 	S
+145	Oxigenoterapia e Mobiliarios 	S
+146	Bombas de Infusao	S
+147	Seguros 	S
+148	Exames de Imagem	S
+149	Distribuidora	S
+150	Simpro	S
+151	Telefonia e Internet	S
+152	Ar Condicionado 	S
