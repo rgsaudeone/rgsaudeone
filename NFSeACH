@@ -1,0 +1,77 @@
+Bom dia Erica,
+
+Acredito que sejam estas as informações que precisa, segue... Caso precise de mais algo por favor sinalize.
+
+
+
+se sim, será apenas NFSe? emitem modelo NFe - 55?
+Apenas NFSe
+
+
+Vocês possuem somente 1 CNPJ ou são multi-filiais?
+1 CNPJ
+
+
+Código Serviço: Informe neste campo o código do serviço para o município selecionado.
+05266 - Home Care
+04030 - Medicina e Biomedicina
+04197 - Clínicas
+
+
+Código da Atividade: Informe o código da atividade da empresa.
+87.12.3.00 (home care)
+86.30.5.03 (demais atividades)
+
+
+
+CTISS: O CTISS é uma tabela criada pela Secretaria de Finanças de Belo Horizonte para fins de:
+n/a
+
+
+Qualificação dos serviços prestados ou tomados sujeitos ao ISSQN;
+Tributados em São Paulo > Normal
+
+
+Definição e aplicação da alíquota incidente sobre os serviços prestados;
+2% (para ambos os códigos)
+
+Apuração do valor devido a recolher, seja pelo contribuinte ou responsável tributário.
+Contribuinte
+
+Descrição do Código de Serviço: Informe a descrição do código de serviço que será exibido na NFS-e.
+05266 - Unidade de atendimento, assistência ou tratamento móvel e congêneres.
+04030 - Medicina e Biomedicina
+04197 - Clínicas e casas de saúde.
+
+
+
+Descrição do Código da Atividade: Informe a descrição do código da atividade que será exibido na NFS-e.
+Acho que isso é repetitivo, caso precise de algo diferente favor sinalizar
+
+
+
+Descrição do Serviço da NFS-e: Informe a descrição do serviço que será exibida na NFS-e.
+Erica, acredito que este seja o texto que constará no corpo da nota. Vejo que podem seguir o critério atual com as variáveis que precisam constar (paciente, número do atendimento, fatura, etc...)
+
+
+
+
+NBS: Selecione o código NBS do serviço e a descrição correspondente ao código será exibida automaticamente no campo NBS.
+
+1.2303.00.00 - Serviços domiciliares de apoio a idosos, crianças, adolescentes, pessoas com transtornos mentais e com deficiências
+Atividade de home care
+
+
+1.2301.21.00 - serviços de clínica médica
+Demais atividades
+
+
+Descrição Tributária Municipal: Informe a Tributação Municipal que será exibida na NFS-e
+Tributado - Normal
+
+
+
+
+
+
+
